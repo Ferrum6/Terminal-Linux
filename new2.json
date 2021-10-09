@@ -2,9 +2,9 @@
 	"name":"Feru",
 	"age":27,
 	"pets":2,
-	"Dreamsalary":5500
-	"Favoritedish":"Plov",
+	"salary":5500
+	"dish":"Plov",
 	"Season":"Summer",
 	"Country":"USA"
-	"TVshow":"MoneyHeist"
+	"show":"MoneyHeist"
 }
