@@ -2,9 +2,9 @@
 	"name":"Feru",
 	"age":27,
 	"pets":2,
-	"salary":5500
-	"dish":"Plov",
+	"salary":5500,
+	"food":"pizza",
 	"Season":"Summer",
-	"Country":"USA"
+	"Country":"USA",
 	"show":"MoneyHeist"
 }
