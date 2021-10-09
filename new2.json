@@ -3,4 +3,8 @@
 	"age":27,
 	"pets":2,
 	"Dreamsalary":5500
+	"Favoritedish":"Plov",
+	"Season":"Summer",
+	"Country":"USA"
+	"TVshow":"MoneyHeist"
 }
