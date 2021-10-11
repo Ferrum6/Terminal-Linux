@@ -1,0 +1,126 @@
+4. Создать файл “new.json” - touch new.json
+
+ 5. Добавить файл под гит. - git add new.json
+
+ 6. Закоммитить файл. - git commit-m "add new.json"
+
+ 7. Отправить файл на внешний GitHub репозиторий.  - git push
+
+ 8. Создать файлы new2.json, new2.xml, new2.txt - touch new2.json, new2.xml, new2.txt
+
+ 9. Добавить файлы под гит. -  git add .
+
+ 10. Закоммитить файлы. git commit -m "add new three files"
+
+ 11. Отправить файлы на внешний GitHub репозиторий.-  git push
+
+ 12. Отредактировать содержание файла “new2.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата).
+nano new2.txt
+
+1)Feruza Omarova(Ferrum6)
+2)27 years old
+3)No pets 
+4)the more, the better
+
+
+Ctrl+X — чтобы сохранить - Y -yes
+Enter — для выхода
+
+
+
+ 13. Отредактировать содержание файла “new2.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+vim new2.json
+{
+   "name":"Feru",
+   "age":27,
+   "pet":"Bak",
+   "salary":"5500"
+}
+ Press ESC + type ":wq" + Enter
+ 
+14. Добавить и закоммитить “new2.txt” одной строчкой. -  git add new2.json && git commit -m "added new text"
+
+ 15. Добавить и закоммитить “new2.json” одной строчкой. git add new2.json && git commit -m "added new text"
+
+ 16. Отправить изменения на внешний репозиторий. git push
+
+ 17. Отредактировать содержание файла “new2.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+vim new2.xml
+<PersonalData>
+        <name>Fera</name>
+        <age>27</age>
+        <pet>dog</pet>
+        <dreamsalary>5500</dreamsalary>
+        </PersonalData>
+
+ Press ESC + type ":wq" + Enter
+
+18. Добавить и закоммитить “new2.xml” одной строчкой. - git add new2.xml && git commit -m "added new text"
+
+ 19. Отправить изменения на внешний репозиторий. git push
+
+ 20. Отправить предыдущее домашнее задание по GitBush Terminal на внешний репозиторий. 
+1) в папке с нужной домашкой открываем GIT BASH
+2)git clone https://github.com/Ferrum6/homework2 (создалась папка "homework2")
+3) cd homework2
+4)cd ..
+5)cp ./../../Desktop/QA_Practice//Homework1.txt ./homework2/homework1.txt
+6)cd homework2
+7)git add Homework1.txt
+8)git commit -m "added homework1"
+9)git push
+
+ 21. В веб интерфейсе GitHub создать файл new3.txt. - in GIT HUB - Push button "add Files"> "create new file" "new3.txt"
+- Done
+ 22. Отредактировать в веб интерфейсе содержание файла “new3.txt” - написать информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить).
+Favorite movie - Gladiator
+Favorite TV show - Money Heist
+Favorite Cuisine - Balkan
+Favorite season - summer
+Favorite holiday - New Year's Eve
+Country to visit - USA
+ 
+23. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Done
+
+24. Синхронизировать внешний и локальный репозитории (слить изменения с внешнего репозитория)  - git pull
+ 
+25. Отредактировать в веб интерфейсе содержание файла “new2.json” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате JSON.
+нажать  на new2.jsonб на карандаш (Edit this file)
+{
+	"name":"Feru",
+	"age":27,
+	"pets":2,
+	"salary":5500,
+	"food":"pizza",
+	"Season":"Summer",
+	"Country":"USA",
+	"show":"MoneyHeist"
+}
+
+26. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ push button - Commit changes 
+
+ 27. Синхронизировать внешний и локальный репозитории - в терминале набираем git pull
+
+ 28. Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате XML.
+нажать  на new2.xml на карандаш (Edit this file)
+<PersonalData>
+	<name>Fera</name>
+	<age>27</age>
+	<pet>dog</pet>
+	<dreamsalary>5500</dreamsalary>
+	<show>Witcher</show>
+	<food>pizza</food>
+	<season>summer</season>
+	<country>USA</country>
+	</PersonalData>
+Commit changes 
+
+29. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+push button - Commit changes 
+
+
+ 30. Синхронизировать внешний и локальный репозитории git pull
+
+

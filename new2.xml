@@ -3,4 +3,8 @@
 	<age>27</age>
 	<pet>dog</pet>
 	<dreamsalary>5500</dreamsalary>
+	<show>Witcher</show>
+	<food>pizza</food>
+	<season>summer</season>
+	<country>USA</country>
 	</PersonalData>
